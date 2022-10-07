@@ -9,6 +9,7 @@ header{
     background-color: #005ba3;
     /*margin: 1em 0 0 1em;*/
     content-visibility: auto;
+    display: flex;
 }
 
 h7 {
@@ -27,6 +28,9 @@ footer{
     content-visibility: auto;
 }
 
+
 .logoImg {
     background-color: white;
+
+
 }
