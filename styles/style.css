@@ -3,6 +3,12 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
+    font-family: Arial;
+    background-image: url("/img/fondo.png");
+
+    /* background: center / contain no-repeat url("../../media/examples/firefox-logo.svg"),
+            #eee 35% url("../../media/examples/lizard.png"); */
+    
 }
 
 header{
@@ -14,23 +20,50 @@ header{
 
 h7 {
     display: block;
-    font-size: 1.5em;
+    font-size: 1em;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-top: 1em;
     margin-bottom: 1em;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: white;
 }
 
 footer{
     background-color: #005ba3;
     content-visibility: auto;
+    display: block;
+    
 }
 
+MENU{
+    text-align: center;
+    display: inline-block;
+    background-color: #005ba3;
+    /* margin-inline-end: 1em;
+    margin-inline-start: 1em; */
+    /* margin-block-end: 1em;
+    margin-block-start: 1em; */
+    margin-inline: 1em;
+}
+
+button{
+    margin: 1em;
+}
+/* article{
+    /* background-image: url("/img/fondo.png"); 
+} */
 
 .logoImg {
     background-color: white;
-
-
 }
+
+.datos{
+    display: block;
+}
+
+/* .menuDIV {
+    text-align: center;
+    display: inline-block;
+    background-color: #005ba3;
+} */
