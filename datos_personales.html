@@ -1,32 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <link rel="stylesheet" href="styles/icons.css" type="text/css">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
     <title>Datos Personales</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="index.html"> <img src="img/LOGO.png" class="logoImg"> </img> </a>
-        <h7>Contactanos hoy mismo! (datos de contacto) //  social media  // menu</h7>
-    </header>
-    <form>
-        <h1>Ingrese sus datos personales</h1>
-        <div class="datos">
-            <h2>Nombre/s: <input type="text"></h2>
-            <h2>Apellido/s: <input type="text"></h2>
-            <h2>DNI: <input type="text"></h2>
-            <h2>Fecha de Nacimiento: <input type="text"></h2>
-            <h2>Telefono de contacto: <input type="text"></h2>
-            <h2>Email: <input type="email"></h2>
-            <h2></h2>
-        </div>
-        <button type="submit">Enviar</button>
-    </form>
+      <a href="index.html"> <img src="img/LOGO.png" class="logoImg"></a>
+      <!-- <h7 >Contactanos hoy mismo! (datos de contacto) // social media // menu-hamburguesa</h7> -->
+      <div class="Contacto">
+       <h7>Contactanos hoy mismo!  </h7> 
+       <!-- <a href="mailto:escuelarutas@gmail.com">Mail</a> -->
+    <!-- <div class="gg-menu-round"> -->
+          <div>
+      <ul class="contact_details">
+                  <li class="phone"><i class="gg-phone"></i><a href="tel:4702-7080">4702-7080</a></li>
+                  <li class="phone"><i class="gg-phone"></i><a href="tel:4702-5554">4702-5554</a></li>
+                  <li class="mail"><i class="gg-mail"></i><a href="mailto:escuelarutas@gmail.com">escuelarutas@gmail.com</a></li>
+      </ul>
+      <ul class="social">
+                  <li class="facebook">
+                      <i class="gg-facebook"></i>
+                      <a target="_blank" href="https://www.facebook.com/RutasEscuela" title="Facebook">facebook</a></li>
+                  <li class="twitter">
+                      <i class="gg-twitter"></i>
+                      <a target="_blank" href="https://twitter.com/RutasEscuela" title="Twitter">twitter
+                      </a></li>
+                  <li class="youtube">
+                      <i class="gg-youtube"></i>
+                      <a target="_blank" href="https://www.youtube.com/channel/UCm8z34hm6WE6pwXm64JR1YQ" title="YouTube">youtube</a></li>
+              </ul>
+
+          </div>
+      </div>
+  </header> 
+
+    <!-- <header>
+      <a href="index.html"> <img src="img/LOGO.png" class="logoImg" /> </a>
+      <h7 >Contactanos hoy mismo! (datos de contacto) // social media //
+        menu-hamburguesa</h7>
+    </header> -->
+    <div class="datos">
+      <h1>Ingrese sus datos personales</h1>
+      <form>
+        <!-- <div class="datos"> -->
+        <h2 for="fname">Nombre/s: <input type="text" id="nombre" name="fname" value="John"/></h2>
+        <h2 for="lname">Apellido/s: <input type="text" id="apellido" name="lname" value="Doe"/></h2>
+        <h2 for="dni">DNI: <input type="text" id="dni" name="dni" value="11111111"/></h2>
+        <h2 for="fechaNac">Fecha de Nacimiento: <input type="date" id="fechaNac" name="fechaNac" value="01/01/2000"/></h2>
+        <h2 for="tel">Telefono de contacto: <input type="tel" id="tel" name="tel" value="1112345678"/></h2>
+        <h2 for="mail">Email: <input type="email" id="mail" name="mail" value="jdoe@mail.com"/></h2>
+
+        <button type="submit" value="Enviar">Enviar</button>
+        <a href="index.html"><button type="button" value="Volver">Volver</button></a>
+        <!-- <button type="submit">Enviar</button> -->
+      </form>
+    </div>
 
     <footer><h7>aca va el footer</h7></footer>
-</body>
+  </body>
 </html>

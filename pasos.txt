@@ -1,0 +1,3 @@
+1ero anotarse
+2do autoescuela valida, genera usuario y contraseña (puede elegirle instructor?)
+3ro se puede acceder al schedule de horarios
