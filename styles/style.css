@@ -1,10 +1,10 @@
 header {
   background-color: #005ba3;
-  content-visibility: auto; 
-   display: flex; 
-   /*justify-content: center; */
-   /* max-width: 10px;  */
-   max-height: 103px;
+  content-visibility: auto;
+  display: flex;
+  /*justify-content: center; */
+  /* max-width: 10px;  */
+  max-height: 103px;
 }
 
 body {
@@ -74,8 +74,29 @@ footer {
   bottom: 0px;
 }
 
+a {
+  text-decoration: none;
+  outline: 0;
+  font: inherit;
+  color: wheat;
+}
+
+MENU > i {
+  margin: 0 auto;
+}
+
+img {
+  max-height: 103px;
+}
+
 .logoImg {
   background-color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .logoImg {
+    display: none;
+  }
 }
 
 .datos {
@@ -90,17 +111,53 @@ footer {
   border-radius: 5px;
 }
 
-.social{
-  display: flex; 
+.social {
+  display: flex;
   float: right;
-  /* align-items: flex-end; */
-}
-.contacto{
-  display: flex; 
-  align-items: stretch;
+  align-items: flex-end;
+  color: wheat !important;
 }
 
-.contact_details{
-  display: flex; 
+.contacto {
+  display: flex;
+  align-items: stretch;
+  /* color: wheat; */
+  right: 50px;
+}
+
+.contact_details {
+  display: flex;
   float: left;
+  color: wheat !important;
+}
+
+.no {
+  font-weight: bold;
+}
+
+.no-line {
+  margin-block: 0px;
+  border-style: dashed none;
+}
+
+/* .whatsapp{
+  display: none;
+}*/
+
+/*@media only screen and (max-width: 768px) { */
+/* .whatsapp{
+    display: block;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+  } */
+/* } */
+
+.whatsapp {
+  display: block;
+  position: fixed;
+  right: 5px;
+  bottom: 50px;
+  z-index: 1;
 }
