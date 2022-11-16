@@ -16,6 +16,31 @@ body {
   background-image: url("/img/fondo.png");
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');  */
+
+h1{
+  color: wheat;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+
+  /* font-family: 'Quintessential', cursive; */
+  /* font-family: 'Ubuntu', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+/* .letra{
+  font-family: 'Roboto', sans-serif;
+}
+
+.letra2{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.letra3{
+  font-family: 'Quintessential';
+} */
+
 h7 {
   display: block;
   font-size: 1em;
@@ -111,25 +136,43 @@ img {
   border-radius: 5px;
 }
 
+/* .contacto {
+  display: flex;
+  align-items: stretch;
+  /* color: wheat; */
+  /*position: fixed;
+} */
+
+.contacto{
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 30;
+  line-height: 21px;
+  vertical-align: baseline;
+}
+
+.contact_details{
+  float: left;
+}
+
 .social {
+  float: right;
+} 
+
+/* .social {
   display: flex;
   float: right;
   align-items: flex-end;
   color: wheat !important;
-}
+} */
 
-.contacto {
-  display: flex;
-  align-items: stretch;
-  /* color: wheat; */
-  right: 50px;
-}
 
-.contact_details {
+/* .contact_details {
   display: flex;
   float: left;
   color: wheat !important;
-}
+} */
 
 .no {
   font-weight: bold;

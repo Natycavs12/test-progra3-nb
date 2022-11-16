@@ -1,3 +1,22 @@
 1ero anotarse
 2do autoescuela valida, genera usuario y contraseña (puede elegirle instructor?)
 3ro se puede acceder al schedule de horarios
+
+
+
+https://www.kodetop.com/incluir-fuentes-en-css-con-font-face/
+www.kodetop.com
+
+https://fonts.google.com/icons
+fonts.google.com
+
+https://www.jose-aguilar.com/blog/como-agregar-una-fuente-a-tu-pagina-web-con-css/
+
+https://lenguajecss.com/css/fuentes-y-tipografias/tipografias-externas/
+lenguajecss.com
+
+Los pseudo-elementos de CSS 2.1 se mantienen en CSS 3, pero cambia su sintaxis y ahora se utilizan :: en vez de : delante del nombre de cada 
+pseudo-elemento: ::first-line, selecciona la primera línea del texto de un elemento. ::first-letter, selecciona la primera letra del texto de un 
+elemento. ::before, selecciona la parte anterior al contenido de un elemento para insertar nuevo contenido generado. ::after, selecciona la parte 
+posterior al contenido de un elemento para insertar nuevo contenido generado.
+::selection, selecciona el texto que ha seleccionado un usuario con su ratón o teclado
