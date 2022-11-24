@@ -20,3 +20,4 @@ pseudo-elemento: ::first-line, selecciona la primera línea del texto de un elem
 elemento. ::before, selecciona la parte anterior al contenido de un elemento para insertar nuevo contenido generado. ::after, selecciona la parte 
 posterior al contenido de un elemento para insertar nuevo contenido generado.
 ::selection, selecciona el texto que ha seleccionado un usuario con su ratón o teclado
+562333

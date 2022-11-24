@@ -2,44 +2,129 @@ header {
   background-color: #005ba3;
   content-visibility: auto;
   display: flex;
-  /*justify-content: center; */
-  /* max-width: 10px;  */
   max-height: 103px;
 }
 
 body {
   display: block;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   border: 0;
   font-family: Arial;
-  background-image: url("/img/fondo.png");
+  /* background-image: url("/img/fondo.png"); */
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');  */
+.content{
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
 
-h1{
+.slider{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px; 
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  padding-inline-start: 0px;
+  z-index: -1;
+  list-style: none;
+  /* background-image: url("/img/logo-palermo.png"); */
+  background-position: center center;
+}
+
+.slider li{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-position: center center;
+  margin: 0px;
+  padding: 0px;
+  animation: slider 40s linear infinite;
+  list-style: none;
+  -moz-animation: slider 40s linear infinite;
+  -ms-animation: slider 40s linear infinite;
+  -o-animation: slider 40s linear infinite;
+  -webkit-animation: slider 40s linear infinite;
+
+}
+
+.slider .img-slider-1{
+  background-image: url("/img/cars-city.jpg");
+  animation-delay: 10s;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.slider .img-slider-2{
+  background-image: url("/img/auto_fondo.jpg");
+  animation-delay: 20s;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.slider .img-slider-3{
+  background-image: url("/img/woman-driving.JPG");
+  animation-delay: 30s;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+@keyframes slider {
+  0%{opacity: 0; animation-timing-function: ease-in;}
+  10%{opacity: 1; animation-timing-function: ease-out;}
+  25%{opacity: 1; transform: scale(1);}
+  /* 50%{opacity: 0; transform: scale(2);} */
+  50%{opacity: 0; transform: translateX(10000px);}
+  100%{opacity: 0;}
+}
+
+@-moz-keyframes slider {
+  0%{opacity: 0; animation-timing-function: ease-in;}
+  10%{opacity: 1; animation-timing-function: ease-out;}
+  25%{opacity: 1; transform: scale(1);}
+  50%{opacity: 0; transform: scale(2);}
+  100%{opacity: 0;}
+}
+
+@-ms-keyframes slider {
+  0%{opacity: 0; animation-timing-function: ease-in;}
+  10%{opacity: 1; animation-timing-function: ease-out;}
+  25%{opacity: 1; transform: scale(1);}
+  50%{opacity: 0; transform: scale(2);}
+  100%{opacity: 0;}
+}
+
+@-o-keyframes slider {
+  0%{opacity: 0; animation-timing-function: ease-in;}
+  10%{opacity: 1; animation-timing-function: ease-out;}
+  25%{opacity: 1; transform: scale(1);}
+  50%{opacity: 0; transform: scale(2);}
+  100%{opacity: 0;}
+}
+
+@-webkit-keyframes slider {
+  0%{opacity: 0; animation-timing-function: ease-in;}
+  10%{opacity: 1; animation-timing-function: ease-out;}
+  25%{opacity: 1; transform: scale(1);}
+  50%{opacity: 0; transform: scale(2);}
+  100%{opacity: 0;}
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+h1 {
   color: wheat;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-
-  /* font-family: 'Quintessential', cursive; */
-  /* font-family: 'Ubuntu', sans-serif; */
-  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Bree Serif", serif;
 }
-
-/* .letra{
-  font-family: 'Roboto', sans-serif;
-}
-
-.letra2{
-  font-family: 'Ubuntu', sans-serif;
-}
-
-.letra3{
-  font-family: 'Quintessential';
-} */
 
 h7 {
   display: block;
@@ -56,6 +141,7 @@ article {
   padding-inline-start: 0em;
   display: flex;
   justify-content: center;
+  opacity: 75%;
 }
 
 form {
@@ -68,12 +154,13 @@ form {
 
 MENU {
   text-align: center;
-  display: inline-block;
+  display: inline-block !important;
   background-color: #005ba3;
   color: wheat;
   padding-inline-start: 0em;
   padding: 0em 1em 0em 1em;
   border-radius: 5px;
+  z-index: 1;
 }
 
 button {
@@ -104,6 +191,7 @@ a {
   outline: 0;
   font: inherit;
   color: wheat;
+  display: contents;
 }
 
 MENU > i {
@@ -140,25 +228,29 @@ img {
   display: flex;
   align-items: stretch;
   /* color: wheat; */
-  /*position: fixed;
+/*position: fixed;
 } */
 
-.contacto{
+/* .contacto {
   left: 0;
   top: 0;
   width: 100%;
   z-index: 30;
   line-height: 21px;
   vertical-align: baseline;
+} */
+
+.contact_details {
+  /* float: right; */
+  max-width: 20em;
+  float: LEFT;
+display: block;
 }
 
-.contact_details{
-  float: left;
-}
-
-.social {
-  float: right;
-} 
+/* .social {
+  /* float: LEFT; 
+  max-width: 20em;
+} */
 
 /* .social {
   display: flex;
@@ -166,7 +258,6 @@ img {
   align-items: flex-end;
   color: wheat !important;
 } */
-
 
 /* .contact_details {
   display: flex;
@@ -204,3 +295,18 @@ img {
   bottom: 50px;
   z-index: 1;
 }
+
+#h1margen{
+  margin-left: 1em;
+}
+
+#h7margen{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.copyright_politicas > p, .pol{
+  font-size: 10px;
+  color: wheat;
+}
+
