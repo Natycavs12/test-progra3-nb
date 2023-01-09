@@ -1,98 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/style.css" type="text/css" />
-    <link rel="stylesheet" href="styles/icons.css" type="text/css" />
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles/style.css" type="text/css" />
+  <link rel="stylesheet" href="styles/icons.css" type="text/css" />
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet"> -->
+  <!-- <link
       href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
       rel="stylesheet"
-    />
-    <title>Rutas Palermo</title>
-  </head>
-  <body>
-    <header>
+    /> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@900&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;700&family=Source+Code+Pro:wght@900&display=swap"
+    rel="stylesheet">
+  <title>Autoescuela Rutas Palermo</title>
+</head>
+
+<body>
+  <header>
+    <!-- <div class="title"> -->
       <a href="index.html">
-        <img src="img/logopalermo-pag.png" class="logoImg"
-      /></a>
-      <!-- <a href="index.html"> <img src="img/LOGO.png" class="logoImg" /></a> -->
-      <h1 id="h1margen">
-        ESCUELA DE CONDUCTORES
-        <!-- <br />
-        RUTAS PALERMO  -->
+        <img src="img/Logo (1).png" class="logo_header" /></a>
+      <!-- <a href="index.html"> <img src="img/LOGO.png" class="logo_header" /></a> -->
+      <h1 class="h1_titulo">
+        <!-- ESCUELA DE CONDUCTORES -->
+        AUTOESCUELA
+        RUTAS PALERMO
       </h1>
-    </header>
+      <!-- aca agregamos los links a las redes sociales? -->
 
-    <div class="content">
-      <ul class="slider">
-        <li class="img-slider-1"></li>
-        <li class="img-slider-2"></li>
-        <li class="img-slider-3"></li>
-        <li class="img-slider-4"></li>
-      </ul>
-    </div>
-    <article>
-      <menu>
-        <h1>MENU</h1>
-        <p>SI TODAVÍA <span class="no">NO</span> SOS ALUMN@ HACÉ CLICK ACÁ</p>
-        <i class="gg-arrow-down-o"></i>
-        <a href="/datos_personales.html"><button>ANOTARSE</button></a>
-        <p class="no-line"></p>
-        <p>SI YA TENÉS TU USUARIO Y CONTRASEÑA HACÉ CLICK ACÁ</p>
-        <i class="gg-arrow-down-o"></i>
-        <a href="/inicioSesion.html"><button>INICIAR SESION</button></a>
-      </menu>
-      <!-- inicio de sesion?
-        ingresar datos personales
-        seleccionar turno -->
-    </article>
-    <div class="whatsapp">
-      <a href="https://wa.me/5491150166550" target="_blank">
-        <img src="img/WhatsApp_icon.png" alt=""
-      /></a>
+    <!-- </div> -->
+
+    <div class="menu_nav">
+      <!-- <p>LUPA</p> -->
+        
+      <span class="izquierda">
+        <i class="gg-search"><a href="promociones.html"></a></i>
+      </span>
+      <!-- <p>MENU</p>  -->
+      <!-- en el menu va el acceso al sistema y al resto de la pagina -->
+      <!-- icono lupa para buscar en el sitio -->
+      
+      <span class="derecha">
+        <i class="gg-menu-round"><a href="promociones.html"></a></i>
+      </span>
+
     </div>
 
-    <footer>
-      <div class="contact_details">
-        <a href="https://www.facebook.com/AutoescuelaRutasPalermo"
-          target="_blank" >
-          <span><i class="gg-facebook"></i></span>
-        </a>
-        <br >
-        <a href="https://instagram.com/autoescuelarutaspalermo?igshid=YmMyMTA2M2Y="
-          target="_blank" >
-          <span><i class="gg-instagram"></i></span>
-        </a>
-        <br>
-        <a href="mailto:autoescuelarutaspalermo@hotmail.com">
-          <span><i class="gg-mail"></i></span>
-        </a>
-      </div>
+    <!-- cuando la pag se achica, se va el titulo y aparece menu hamburguesa a la izq -->
+  </header>
 
+
+
+  <section class="principal">
+    <!-- <div class="logo_centro"> -->
       <div>
-        <!-- poner logo -->
-      </div>
-
-      <div class="copyright_politicas">
-        <p>Copyright 2023 © </p>
-        <p>Sitio desarrollado por Natalia B. Barrón</p>
-        <p>para la Escuela de Conductores Rutas, Sucursal Palermo</p>
-        <p>prohibida su reproducción</p>
-        <a href="./politicas de privacidad">
-          <p class="pol">Politicas de Privacidad</p>
-        </a>
-        <!-- <span><i class="gg-facebook"></i></span> -->
-            <!-- poner icono copyright y enlace a politicas de privacidad -->
-            <!-- https://blog.hubspot.es/website/que-es-footer -->
-      </div>
+      <img src="/img/index.png" />
+    </div>
 
 
+  </section>
 
-    </footer>
-  </body>
+  <section class="flecha">
+    <div class="icono_flecha">
+      <i class="gg-chevron-down"></i>
+    </div>
+  </section>
+
+  <div class="whatsapp">
+    <a href="https://wa.me/5491150166550" target="_blank">
+      <img src="img/WhatsApp_icon.png" alt="" class="img_whatsapp" /></a>
+  </div>
+
+  <section class="blanco">
+    <!-- <span><p>-------------------------------------------</p></span> -->
+    <br>
+    <hr>
+
+    <div class="centrar">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.7168381242495!2d-58.41661358519585!3d-34.58603076406857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57fc27b176f%3A0x3320d8055a9fd1d8!2sAutoescuela%20Rutas%20Palermo!5e0!3m2!1ses!2sar!4v1672439415152!5m2!1ses!2sar"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- <span><p>-------------------------------------------</p></span> -->
+    <hr>
+
+    <div>
+      foto
+      "seguimos formando conductores"
+    </div>
+
+    <div class="clases_p">
+      <p>
+        Clases para principiantes y avanzados
+      </p>
+      <p>
+        Y si ya tenés licencia, también damos clases de PERFECCIONAMIENTO
+      </p>
+    </div>
+  </section>
+
+  <section class="clases">
+    <h1>Todas nuestras clases son en el tránsito</h1>
+    <h1>Siempre enfocados en enseñar a conducir y no a manejar</h1>
+    <h1>Te acompañamos en toda la gestión de la licencia para que puedas rendir en la zona</h1>
+  </section>
+
+
+  <section class="precios">
+    <img src="img/logo_completo.JPG" alt="" class="logo_palermo" />
+    <p>Contactanos en nuestras redes sociales o por WhatsApp y te asesoramos!</p>
+
+    <div class="contact_details">
+      <a href="https://www.facebook.com/AutoescuelaRutasPalermo" target="_blank">
+        <img src="img/icono_face_copia.png" alt="" class="icono_face">
+      </a>
+      <a href="https://instagram.com/autoescuelarutaspalermo?igshid=YmMyMTA2M2Y=" target="_blank">
+        <img src="img/icono_insta.png" alt="" class="icono_insta">
+      </a>
+    </div>
+    <hr>
+    <div>
+      <ul>
+        <li><button>Autoescuela Habilitada N° 12</button></li>
+        <li><button>Sacar el turno para el otorgamiento</button></li>
+        <li><button>Material de estudio para el exámen teórico</button></li>
+        <li><button>B.U.I</button></li>
+        <li><button>Licencias de conducir </button></li>
+        <li><button>C.E.N.A.T</button></li>
+        <li><button>Preguntas de exámen Categoría B </button>
+          <p class="vigentes">Vigentes a partir del 1/7/2019</p>
+        </li>
+        <li><button>Renovación de Licencia de Conducir</button></li>
+      </ul>
+      <!-- <button>Autoescuela Habilitada N° 12</button>
+        <button>Sacá el turno para el otorgamiento</button>
+        <button>Material de estudio para el exámen teórico</button>
+        <button>B.U.I</button>
+        <button>Licencias de conducir </button>
+        <button>C.E.N.A.T</button>
+        <button>Preguntas de exámen Categoría B </button>
+        <p class="vigentes">Vigentes a partir del 1/7/2019</p>
+        <button>Renovación de Licencia de Conducir</button> -->
+    </div>
+    <hr>
+    <button>Promociones</button>
+
+  </section>
+
+  <section class="esperas">
+    <h1>Qué esperás para tener tu licencia??</h1>
+  </section>
+
+  <div class="precios">
+    <p>sarasasadsdagdhagshf</p>
+  </div>
+
+  <footer>
+    <div class="contact_details">
+      <a href="https://www.facebook.com/AutoescuelaRutasPalermo" target="_blank">
+        <span><i class="gg-facebook"></i></span>
+      </a>
+      <br>
+      <a href="https://instagram.com/autoescuelarutaspalermo?igshid=YmMyMTA2M2Y=" target="_blank">
+        <span><i class="gg-instagram"></i></span>
+      </a>
+      <br>
+      <a href="mailto:autoescuelarutaspalermo@hotmail.com">
+        <span><i class="gg-mail"></i></span>
+      </a>
+    </div>
+
+    <div>
+      <!-- poner logo -->
+    </div>
+
+    <div class="copyright_politicas">
+      <p>Copyright 2023 © </p>
+      <p>Sitio desarrollado por Natalia B. Barrón</p>
+      <p>para la Escuela de Conductores Rutas, Sucursal Palermo</p>
+      <p>prohibida su reproducción</p>
+      <a href="./politicas de privacidad">
+        <p class="pol">Politicas de Privacidad</p>
+      </a>
+      <!-- <span><i class="gg-facebook"></i></span> -->
+      <!-- poner icono copyright y enlace a politicas de privacidad -->
+      <!-- https://blog.hubspot.es/website/que-es-footer -->
+    </div>
+
+  </footer>
+</body>
+
 </html>

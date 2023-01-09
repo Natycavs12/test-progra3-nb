@@ -1,0 +1,99 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>7</zoom_level><element><id>UMLActor</id><coordinates><x>109</x><y>154</y><w>42</w><h>77</h></coordinates><panel_attributes>Alumno</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLGeneric</id><coordinates><x>242</x><y>7</y><w>497</w><h>490</h></coordinates><panel_attributes>System
+halign=left</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>375</x><y>126</y><w>84</w><h>42</h></coordinates><panel_attributes>Validar
+Usuario y
+Contraseña</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLActor</id><coordinates><x>760</x><y>168</y><w>70</w><h>77</h></coordinates><panel_attributes>Recepcionista</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>375</x><y>203</y><w>84</w><h>28</h></coordinates><panel_attributes>Iniciar 
+Sesión</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>137</x><y>147</y><w>252</w><h>84</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;10;340;100</additional_attributes></element><element><id>Relation</id><coordinates><x>445</x><y>161</y><w>350</w><h>63</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>480;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>161</y><w>63</w><h>56</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;includes&gt;&gt;</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLActor</id><coordinates><x>774</x><y>280</y><w>56</w><h>77</h></coordinates><panel_attributes>Instructor</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>445</x><y>217</y><w>357</w><h>77</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>490;90;10;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>284</x><y>35</y><w>84</w><h>35</h></coordinates><panel_attributes>Cargar Datos 
+Personales</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>543</x><y>455</y><w>84</w><h>28</h></coordinates><panel_attributes>Elegir
+Instructor</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>137</x><y>42</y><w>161</w><h>126</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;160;210;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>543</x><y>406</y><w>84</w><h>28</h></coordinates><panel_attributes>Elegir
+Horario</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>718</x><y>42</y><w>77</w><h>140</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>90;180;10;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>543</x><y>84</y><w>84</w><h>35</h></coordinates><panel_attributes>Cargar/Modificar
+Instructores</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>620</x><y>98</y><w>175</w><h>84</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>230;100;10;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>641</x><y>35</y><w>84</w><h>28</h></coordinates><panel_attributes>Validar
+Alumno</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>599</x><y>154</y><w>196</w><h>28</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>260;20;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>137</x><y>147</y><w>266</w><h>308</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;10;360;420</additional_attributes></element><element><id>Relation</id><coordinates><x>137</x><y>147</y><w>168</w><h>322</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;10;220;440</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>389</x><y>427</y><w>84</w><h>28</h></coordinates><panel_attributes>Reservar
+Clase</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>459</x><y>441</y><w>98</w><h>42</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>120;40;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>459</x><y>413</y><w>98</w><h>35</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>120;10;10;30</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>620</x><y>301</y><w>84</w><h>42</h></coordinates><panel_attributes>Descargar
+Planilla de
+Horarios</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>704</x><y>273</y><w>98</w><h>196</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>120;10;10;260</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>291</x><y>441</y><w>84</w><h>28</h></coordinates><panel_attributes>bg=yellow
+Cancelar
+Clase</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>697</x><y>273</y><w>105</w><h>70</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>130;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>697</x><y>161</y><w>98</w><h>175</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>120;10;10;230</additional_attributes></element><element><id>Text</id><coordinates><x>417</x><y>21</y><w>70</w><h>56</h></coordinates><panel_attributes>// Text Element
+// DB Symbol
+_umletcode=
+fg='black';
+bg='#222222';
+drawArc(0,0,width,height*2/5,0,180,true) //Parameters (x, y, width, height, start, extent, open)
+bg='bg';
+drawArc(0,0,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+fg='#929292';
+bg='#222222';
+drawRectangle(0,(height+0.5)/5,width,(height)*3/5-1)  //Parameters (x, y, width, height)
+fg='black'
+drawLine(0,height/5,0,height*4/5) //Parameters (x1, y1, x2, y2)
+drawLine(width,height/5,width,height*4/5) //Parameters (x1, y1, x2, y2)
+bg='bg';
+drawArc(0,height*1/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+drawArc(0,height*2/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+bg='#222222'
+drawArc(0,height*3/5,width,height*2/5,180,180,true)  //Parameters (x, y, width, height, start, extent, open)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>361</x><y>49</y><w>70</w><h>21</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>480</x><y>42</y><w>56</w><h>21</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>445</x><y>70</y><w>91</w><h>98</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>110;120;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>410</x><y>70</y><w>35</w><h>70</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;80;30;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>522</x><y>28</y><w>84</w><h>42</h></coordinates><panel_attributes>Generar
+Usuario y 
+Contraseña</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>599</x><y>42</y><w>56</w><h>21</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>60;10;10;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>277</x><y>91</y><w>84</w><h>42</h></coordinates><panel_attributes>Devolver
+Usuario y 
+Contraseña</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>354</x><y>63</y><w>77</w><h>56</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>90;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>137</x><y>112</y><w>154</w><h>56</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>200;10;10;60</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>627</x><y>441</y><w>84</w><h>28</h></coordinates><panel_attributes>bg=yellow
+Cancelar
+Clase</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>473</x><y>70</y><w>84</w><h>49</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>100;50;10;10</additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>480</x><y>301</y><w>84</w><h>42</h></coordinates><panel_attributes>Descargar
+Planilla 
+Semanal</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>494</x><y>357</y><w>84</w><h>42</h></coordinates><panel_attributes>Descargar
+Planilla
+Mensual</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>487</x><y>245</y><w>84</w><h>42</h></coordinates><panel_attributes>Descargar
+Planilla
+Diaria</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>564</x><y>266</y><w>77</w><h>63</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;90;70</additional_attributes></element><element><id>Relation</id><coordinates><x>571</x><y>329</y><w>77</w><h>63</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;70;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>557</x><y>308</y><w>77</w><h>35</h></coordinates><panel_attributes>lt=.&gt;
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;30;90;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>116</x><y>672</y><w>70</w><h>21</h></coordinates><panel_attributes>bg=yellow
+Tablas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>165</x><y>721</y><w>112</w><h>140</h></coordinates><panel_attributes>Datos Personales
+--
+idPersona
+nombre
+apellido
+dni
+fecha nac
+telefono
+mail
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>896</y><w>112</w><h>140</h></coordinates><panel_attributes>Usuarios
+--
+id
+username
+password
+id_role
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>221</x><y>896</y><w>112</w><h>140</h></coordinates><panel_attributes>Roles
+--
+id
+app_role
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>721</y><w>112</w><h>140</h></coordinates><panel_attributes>Instructores
+--
+idInstructor
+nombre
+apellido
+dni
+fecha nac
+telefono
+mail
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>18</x><y>1057</y><w>112</w><h>140</h></coordinates><panel_attributes>DistHoraria
+--
+idPersona
+idDia
+HoraInicio
+HoraFin
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>242</x><y>1057</y><w>112</w><h>140</h></coordinates><panel_attributes>Dia
+--
+idDia
+nombreDia
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>123</x><y>1134</y><w>133</w><h>21</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>170;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>319</x><y>735</y><w>112</w><h>140</h></coordinates><panel_attributes>Horarios_Instructores
+--
+id_instructor
+dia
+hora
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>522</x><y>133</y><w>84</w><h>49</h></coordinates><panel_attributes>Cargar/Modificar
+Horarios</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLUseCase</id><coordinates><x>368</x><y>266</y><w>84</w><h>49</h></coordinates><panel_attributes>Modificar
+Datos
+Personales</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>445</x><y>161</y><w>350</w><h>140</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>480;10;10;180</additional_attributes></element><element><id>Relation</id><coordinates><x>361</x><y>56</y><w>140</w><h>238</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;320;180;10</additional_attributes></element><element><id>Relation</id><coordinates><x>445</x><y>280</y><w>364</w><h>28</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>500;10;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>144</x><y>147</y><w>238</w><h>154</h></coordinates><panel_attributes>lt=-&gt;&gt;</panel_attributes><additional_attributes>10;10;320;200</additional_attributes></element></diagram>

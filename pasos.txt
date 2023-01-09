@@ -21,3 +21,14 @@ elemento. ::before, selecciona la parte anterior al contenido de un elemento par
 posterior al contenido de un elemento para insertar nuevo contenido generado.
 ::selection, selecciona el texto que ha seleccionado un usuario con su ratón o teclado
 562333
+
+
+2 registro, manda mail con usuario y contraseña (usuario es dni o mail / la pass es aleatroria - parecida a la sugerida de google)
+cambio de contraseña con boton en el mail
+
+3 turno ver preventus
+
+elegir instructor
+elegir horario
+
+boton cambiar instructor
